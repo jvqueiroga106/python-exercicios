@@ -167,14 +167,14 @@ while True:
 print("maior numero:",maior)
 print("menor numero:",menor)
 
-rola=0
+c=0
 while True:
   num=int(input("qual o seu numero?"))
   if num==0:
     break
   if num > 2:
-    rola=rola+1
-print(("quantidade de numeros maiores que 2:"),rola)
+    c=c+1
+print(("quantidade de numeros maiores que 2:"),c)
 
 nota1=(float(input("nota da primeira prova?")))
 nota2=(float(input("nota da segunda prova?")))
@@ -313,8 +313,8 @@ lista=[9,8,7,6,5,4,]
 if nota1 and nota2 in lista:
   print("aprovado")
 elif nota1 and nota2 <5:
-  print("ai meu cu")
-else:
-  print("rola")
+  print("recuperacao")
+else :
+    print("reprovado")
 print(f'sua nota é: {nota}')
 print(f' sua media é: {(nota1 +nota2)/2}')
